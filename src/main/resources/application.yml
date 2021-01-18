@@ -8,9 +8,9 @@ spring:
     active: devel
   cloud:
     config:
-    server:
-    git:
-    uri: "https://github.com/ca98047/spring-cloud-config-demo"
+      server:
+        git:
+          uri: "https://github.com/ca98047/spring-cloud-config-demo"
 
 application:
   message: "Message From Default Local Git Repository (Spring Cloud Bus)"
